@@ -153,6 +153,21 @@ cartContainer: {
     fontSize: 18,
     fontWeight: 'bold',
   },
+  emptyCartContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  
+  emptyCartText: {
+    fontSize: 18,
+    color: 'gray',
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginTop: 20,
+    top: -40
+  },
+  
   
 
   // Checkout Screen Styles
@@ -194,11 +209,10 @@ cartContainer: {
   },
   
   checkoutTotal: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    textAlign: 'center',
-    marginVertical: 10,
-    bottom: 0,
+      fontSize: 20,
+      fontWeight: 'bold',
+      textAlign: 'right',
+      marginVertical: 10,
   },
   
   checkoutCompleteButton: {

@@ -252,7 +252,7 @@ const modalStyles = StyleSheet.create({
     },
     closeButton: {
       position: 'absolute',
-      top: 40,
+      top: 60,
       right: 20,
     },
     closeText: {

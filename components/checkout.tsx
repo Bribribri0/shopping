@@ -39,7 +39,6 @@ const CheckoutScreen: React.FC<CheckoutScreenProps> = ({ navigation }) => {
             <Image source={item.image} style={styles.checkoutProductImage} />
             <View style={styles.checkoutProductDetails}>
               <Text style={styles.checkoutProductText}>{item.name}</Text>
-              <Text style={styles.checkoutProductPrice}>Size: {item.size}</Text>
               <Text style={styles.checkoutProductPrice}>₱{item.price.toLocaleString()} x {item.quantity}</Text>
             </View>
           </View>
